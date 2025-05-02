@@ -43,7 +43,7 @@ npm run dev
 
 ## Note
 
-This is a client-side implementation that expects a SimpleWebAuthn server to be running on http://localhost:3000. Make sure your server implements the following endpoints:
+This is a client-side implementation that expects a WebAuthn server to be running on http://localhost:3000. Make sure your server implements the following endpoints:
 
 - POST /generate-registration-options
 - POST /verify-registration
