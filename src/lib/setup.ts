@@ -1,0 +1,1 @@
+export const relypartyapi = process.env.NEXT_RP_API_URL || 'http://localhost:3000';

@@ -1,0 +1,45 @@
+{
+  "name": "passkeys-browser",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^13.1.0",
+    "next": "15.3.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.3",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatodecampos/passkeys-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatodecampos/passkeys-browser/issues"
+  },
+  "homepage": "https://github.com/renatodecampos/passkeys-browser#readme",
+  "overrides": {
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.3"
+  }
+}
